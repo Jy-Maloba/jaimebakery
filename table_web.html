@@ -1,0 +1,131 @@
+<html>
+	<head>
+		<title> my_resume </title>
+		<style>
+			* {
+				box-sizing: border-box;
+				}
+			body{
+				background-color:white;
+				margin: 0px;
+    				padding: 0px;
+				}
+			.nav_bar{
+				background-color:antiquewhite;
+				overflow: hidden;
+				position:fixed;
+				top:0;
+				width:100%;
+				height:10%;
+				}
+
+			.nav_bar h3{
+				float:left;
+				
+					}
+			.nav_bar button{
+				float:right;
+				display:block;
+				text-align:centre;
+				padding: 14px 16px;
+				text-decoration:none;
+				background-color: #04AA6D;
+  				color: white;
+  				font-size: 16px;
+  				border: none;
+				height:100%;
+				}
+			.nav_bar button a{
+				text-align:centre;
+				padding: 14px 16px;
+				text-decoration:none;
+				color:black;
+				}
+			.nav_bar button:hover{
+				background-color:#3e8e41;
+				}
+			.nav_bar a:hover{
+				color:blue;
+				}
+			#container .menu{
+				height:100%;
+				width:35%;
+				background-color:#00008b;
+				float:left;
+				z-index:1;
+				color:black;
+				padding:10px;
+				margin-top:4%;
+				}
+			#container .info{
+				height:100%;
+				width:60%;
+				background-color:#00008b;
+				float:right;
+				padding:15px;
+				margin-top:4%;
+				}
+			#container{
+				top:100px;
+				}
+			#container .info img{
+				height:100%;
+				float: left;
+				}
+			#container .info p{
+				float: right;
+				}
+			p{
+				color:black;
+				}
+			.menu ul a{
+				text-decoration:none;
+				color:black;
+				padding:0px 22px;
+				font-weight:500;
+				line-height: 50px;
+				}
+			.menu ul a:hover{
+				color:blue;
+				}
+			.menu ul{
+				list-style:none;
+				}
+			.info img{
+				width:70%;
+				padding:20px;
+				}
+			.product {
+  				background-color: #04AA6D;
+  				color: white;
+  				padding: 16px;
+  				font-size: 16px;
+  				border: none;
+				}
+			
+		</style>
+	</head>
+	<body>
+		<div class="nav_bar">
+			<h3><a href="table_web.html"style="text-decoration:none;">HAIME-BAKERY</a></H3>
+			<button class="about"><a href="about_page.html">About us</a></button>
+			<button class="product"><a href="product_page.html">Our Products</a></button>
+			<button class="home"><a href="table_web.html">Home</a></button>
+  				
+		</div>
+		<div id="container">
+			<div class="menu">
+				<ul>
+					<li><a href="table_web.html">Home </a></li>
+					<li><a href="product_page.html">Our products</a></li>
+					<li><a href="about_page.html">About us</a></li>
+				
+				</ul>
+			</div>
+			<div class="info">
+				<p>Welcome to Haime-Bakery, here we offer Cakes, Muffins, Bread, Biscuits, Cookies, Donuts, coffee and many more.</p>
+				<img src="frt.jpg" alt="bread" height="200"/>
+			</div>
+		</div>
+	</body>
+</html>
