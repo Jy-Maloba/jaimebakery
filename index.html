@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metro-Utawala</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <h2 class="logo">Metro-Utawala</h2>
+            <ul>
+                <li><a href="">About Us</a></li>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+            <img src="images/verified.png" class="verified-icon">
+        </nav>
+        <div class="text-box">
+            <h1>METRO</h1>
+            <h1>UTAWALA</h1>
+            <h3>WE GET YOU THERE IN STYLE !</h3>
+        </div>
+
+        <div class="form">
+            <div class="inner-form" id="form">
+                <div class="form-front">
+                    <h2>Login Here</h2>
+                    <div class="selector">
+                        <select name="Select User Type">
+                            <option value="driver">Driver</option>
+                            <option value="manager">Terminus Manager</option>
+                            <option value="cashier">Cashier</option>
+                        </select>
+                    </div>
+                    <input type="email" name="email" placeholder="Enter Email Here">
+                    <input type="password" name="" placeholder="Enter Password Here">
+                    <button class="btn"><a href="#">Login</a></button>
+
+                    <p class="link">Don't have an account?<br>
+                        <a href="#" onclick="openRegister()">Sign up </a> here</p>
+                        <p class="liw">Log in with</p>
+
+                        <div class="icon">
+                            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                            <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                            <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+                        </div>
+
+                
+                </div>
+                <div class="form-back">
+                    <h2>Register</h2>
+                    <div class="selector">
+                        <select name="Select User Type">
+                            <option value="driver">Driver</option>
+                            <option value="manager">Terminus Manager</option>
+                            <option value="cashier">Cashier</option>
+                        </select>
+                    </div>
+                    <input type="text" name="email" placeholder="Your Name">
+                    <input type="email" name="email" placeholder="Enter Email Here">
+                    <input type="password" name="" placeholder="Enter Password Here">
+                    <button class="btn"><a href="#">Sign Up</a></button>
+
+                    <p class="link">Already have an account?<br>
+                        <a href="#"  onclick="openLogin()">Sign in </a> here</p>
+                        <p class="liw">Log in with</p>
+
+                        <div class="icon">
+                            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                            <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                            <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+                        </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script>
+
+        var form = document.getElementById("form");
+        function openRegister(){
+            form.style.transform = "rotateY(-180deg)";
+        }
+        function openLogin(){
+            form.style.transform = "rotateY(0deg)";
+        }
+
+    </script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>
